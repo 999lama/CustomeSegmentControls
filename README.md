@@ -2,7 +2,9 @@
 This repo is  contain a collection of  Segment Controls created by me @LamaAlbadri 🦩🪐
 
 To use this simply make an  @IBAction like this :
-`   @IBAction func segmentControl(_ sender: CustomeSegmentedControlWithCornerRadius) {
+
+```
+  @IBAction func segmentControl(_ sender: CustomeSegmentedControlWithCornerRadius) {
         switch sender.selectedSegmentIndex{
         case 0 :
            view.backgroundColor = .red
@@ -14,8 +16,9 @@ To use this simply make an  @IBAction like this :
                view.backgroundColor = .blue
         }
       
-    }
-    `
+}
+```
+
 
 
 
